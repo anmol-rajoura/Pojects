@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 8%;
+    padding-left: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 5rem;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 3rem;
+    cursor: pointer;
+    margin-left: 4rem;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 6rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 10rem;
+}
+p{
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+button{
+    width: 18rem;
+    color: #000;
+    font-size: 1.2rem;
+    padding:1.2rem 0;
+    background: #fff;
+    border: 0;
+    border-radius: 2rem;
+    outline: none;
+    margin-top: 3rem;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.card{
+    width: 20rem;
+    height: 23rem;
+    display: inline-block;
+    /* display: grid; */
+    border-radius: 1rem;
+    padding: 1.5rem 2.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 1rem 1.5rem;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(images/pic-1.png);
+
+}
+.card2{
+    background-image: url(images/pic-2.png);
+
+}
+.card3{
+    background-image: url(images/pic-3.png);
+
+}
+.card4{
+    background-image: url(images/pic-4.png);
+
+}
+.card:hover{
+    transform: translate(-1rem);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 0.5rem #999;
+    font-size: 2rem;
+}
+.card p{
+    text-shadow: 0 0 1.5rem #000;
+    font-size: 0.8rem;
+
+}
+@media(max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
